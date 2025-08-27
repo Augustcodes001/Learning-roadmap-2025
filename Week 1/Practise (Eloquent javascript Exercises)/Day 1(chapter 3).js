@@ -52,21 +52,3 @@ console.log(twice(5));
 // → 10
 
 
-// 004 pigs or 011 cows
-// print this farm inventory using a function 
-// lets break this problem down since there is numbers and letters mixed it mens the final function must change the number to a string using the String function
-// to represent the zeropadding
-function zeroPad(number){
-     let stringNumber = String(number);
-     while(stringNumber.length < 3 ){
-               stringNumber = "0" +  stringNumber;
-     }
-     return stringNumber;
-}
-// to represent the inventories like cows and chickens using a function
-    function FarmInventory(cows, pigs, chickens){
-     console.log (`${zeroPad(cows)} cows`);
-          console.log (`${zeroPad(pigs)} pigs`);
-               console.log (`${zeroPad(chickens)} chickens`);
-    }
-    FarmInventory(7 , 8 , 10);

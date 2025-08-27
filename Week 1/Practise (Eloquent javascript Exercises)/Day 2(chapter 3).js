@@ -50,6 +50,10 @@ console.log(findSolution(40));
 
         // REPRESENTING GROWING FUNCTIONS
 // taking farm inventory using zeropadding; e.g 004 pigs or 011 cows
+// 004 pigs or 011 cows
+// print this farm inventory using a function 
+// lets break this problem down since there is numbers and letters mixed it mens the final function must change the number to a string using the String function
+// to represent the zeropadding
         function zeroPad(number, width) {
 let string = String(number);
 while (string.length < width) {

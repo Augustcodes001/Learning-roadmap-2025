@@ -73,3 +73,5 @@ while (exp <= 10){
      console.log(power);
 }
 
+
+
