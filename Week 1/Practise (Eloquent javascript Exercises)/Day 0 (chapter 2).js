@@ -1,16 +1,16 @@
 // Exercise for chapter two 
 // ONE
 // write a code that makes seven calls to console.log out the triangle 
-// for ( i = "#" ; i.length <= 7 ; i +="#"  ){
-//      console.log(i);
-// }
+for ( i = "#" ; i.length <= 7 ; i +="#"  ){
+     console.log(i);
+}
         //  OR
  // Using a while loop
-//  var i = "" {since iteration adds values on the initial values we start from an empty state so that the iteration starts from inside the while loop to understand this change i = "#"; we immmediately see that the output starts from  "##" instead of "#"}
-// while (  i.length <= 6 ){
-//     i += "#"
-//      console.log(i);
-// }
+ var i = "" //  {since iteration adds values on the initial values we start from an empty state so that the iteration starts from inside the while loop to understand this change i = "#"; we immmediately see that the output starts from  "##" instead of "#"}
+while (  i.length <= 6 ){
+    i += "#"
+     console.log(i);
+}
 
 // Exercise for chapter two 
 // TWO
@@ -24,17 +24,17 @@
 // (This is actually an interview question that has been claimed to weed
 // out a significant percentage of programmer candidates. So if you solved
 // it, your labor market value just went up.)
-// for ( i = 1 ; i<= 100 ; i ++  ){
-//      if( i % 3 == 0 && i % 5 == 0){
-//                 console.log( "FizzBuzz");   
-//      }
-//      if (i % 3 == 0){
-//           console.log( "Fizz");
-//      }  else if (i % 5 == 0){
-//           console.log( "Buzz");
-//      }
-//      console.log(i);
-// }
+for ( i = 1 ; i<= 100 ; i ++  ){
+     if( i % 3 == 0 && i % 5 == 0){
+                console.log( "FizzBuzz");   
+     }
+     if (i % 3 == 0){
+          console.log( "Fizz");
+     }  else if (i % 5 == 0){
+          console.log( "Buzz");
+     }
+     console.log(i);
+}
 
 // Exercise for chapter two 
 // THREE
@@ -60,12 +60,16 @@ for ( a = 0 ; a < size ; a ++ ){
 }
   console.log(board);
 
+// EXAMPLE
+// representing the mathematical exponential with a while loop
+let exp = 0;
+let power = 1;
 
+while (exp <= 10){
+     power = power * 2;
+     // OR 
+     // power *= 2;
+     exp++;
+     console.log(power);
+}
 
-
-  // Exercise for chapter three
-// ONE
-// Write a program that creates a string that represents an 8×8 grid, using
-// newline characters to separate lines. At each position of the grid there
-// is either a space or a "#" character. The characters should form a
-// chessboard. 
