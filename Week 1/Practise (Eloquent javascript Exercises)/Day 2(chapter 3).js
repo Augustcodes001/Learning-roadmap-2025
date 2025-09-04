@@ -67,3 +67,5 @@ console.log(`${zeroPad(chickens, 3)} Chickens`);
 console.log(`${zeroPad(pigs, 3)} Pigs`);
 }
 printFarmInventory(7, 16, 3);
+
+           

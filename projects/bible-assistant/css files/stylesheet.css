@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ :root {
+            --dark:rgb(49, 49, 49);
+            --light: white; /* Gold color */
+            --glass: rgba(48, 41, 6, 0.27);
+            --text-dark: #ffffff;;
+            --text-light: #000000;
+        }
+
+
+body{
+    background:var(--glass);
+    background-color: #000000;
+ overflow-x: hidden;
+}
+
+  /* Glass Morphism Styles */
+        .glass {
+            background: var(--glass);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            /* border: 1px solid var(--glass-border); */
+            border-radius: 0px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            transition: all 0.4s ease;
+        }
+
+        .glass:hover {
+            box-shadow: 0 12px 40px rgba(212, 175, 55, 0.25);
+            border-color: rgba(212, 175, 55, 0.4);
+        }
+
+        .assistant-body .search-section{
+            height: 100vh;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            padding: 3em 1em;
+        }
+        .side-bar{
+            padding-top: 3em;
+        }
+         .search-section{
+            text-align: center;
+            padding-top: 6em;
+         }
+         .search-box{
+  border: 1px solid red;
+         }
+        .menu-toggler{
+            font-size: 1.55em;
+            color: var(--text-dark);
+        }
